@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+
+#logo{
+    width: 150px;
+    padding-left: 8px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 72);
+    padding: 10px;
+}
+
+body {
+    background-image: url(./imagens/gradient-red-background-free-vector.jpg);
+}
+
+main {
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    max-width: 3000px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.bnt {
+    font-family: 'Gabarito', cursive;
+    font-weight: bold;
+    margin: 10px;
+    padding: 2px 8px;
+    font-size: 20px;
+    background-color: rgb(141, 156, 168);
+    color: rgb(5, 5, 72);
+    border: none;
+    border-radius: 5px;
+    text-decoration:none
+}
+
+#spider {
+    width: 800px;
+    margin-right: 0%;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(5, 5, 72) ;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form [type="submit"]:hover {
+    background-color: rgb(141, 156, 168);
+    transition: 0.3s;
+}
+
+input {
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.rodape {
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+footer {
+    background-color: rgb(141, 156, 168);
+    padding: 5px 0;
+    
+}
+
+#ps {
+    width: 60px;
+    margin: 15px;
+}
