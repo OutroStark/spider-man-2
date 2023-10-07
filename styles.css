@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-image: url(./imagens/gradient-red-background-free-vector.jpg);
 }
 
 #logo{
@@ -14,10 +15,6 @@ body{
     justify-content: space-between;
     background-color: rgb(5, 5, 72);
     padding: 10px;
-}
-
-body {
-    background-image: url(./imagens/gradient-red-background-free-vector.jpg);
 }
 
 main {
@@ -87,14 +84,14 @@ input {
     margin-left: 550px;
     display: flex;
     align-items: center;
-    
-    
 }
 
 footer {
     background-color: rgb(141, 156, 168);
-    padding: 5px 0;
-    
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin: 0
 }
 
 #ps {
